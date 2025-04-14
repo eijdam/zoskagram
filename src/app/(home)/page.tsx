@@ -17,7 +17,8 @@ export default async function HomePage() {
     // Redirect authenticated users to the feed page
     redirect("/prispevok");
   }
-
+  
+  
   // Show the unauthenticated home view for non-authenticated users
   return (
     <Container>
